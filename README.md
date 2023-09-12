@@ -32,22 +32,25 @@ chmod 644 ./telegram_bot/tms-dp-private.key
 
 У бота сделана авторизация по telegram_id, если вашего id нету в списке разрешенных, при запуске защищенной команды появится сообщение.
 
-<img width="626" alt="image" src="https://github.com/kignatovich/tms-dp/assets/110161538/c8f31e89-0866-4b84-a54a-3f14b71d0e59">
+![image](https://github.com/kignatovich/tms-dp-bot/assets/110161538/0f5d176c-ef04-432c-847d-1f180db66470)
+
 
 
 В боте реализовна проерка на наличие файлов для запуска деплоя.
 Файлы наличие которых проверяются: providers.tf, terraform.tfvars, variables.tf, "main.tf.
 
+![image](https://github.com/kignatovich/tms-dp-bot/assets/110161538/21c89ac0-f555-40c6-9ec4-d39266cf473f)
 
-<img width="615" alt="image" src="https://github.com/kignatovich/tms-dp/assets/110161538/905ee2cf-06ff-4f5e-b489-e969b2e66391">
 
 При успешном развертывании появится ссобщение.
 
-<img width="727" alt="image" src="https://github.com/kignatovich/tms-dp/assets/110161538/d7835e6f-7c87-483a-befd-56603cfd4313">
+<img width="723" alt="image" src="https://github.com/kignatovich/tms-dp-bot/assets/110161538/f8664ee9-d3c4-404f-ba32-45a3c6d056bc">
 
-Так же вы получите сообщение об адресе проекта.
 
-<img width="562" alt="image" src="https://github.com/kignatovich/tms-dp/assets/110161538/1ca3a129-7b13-4d5f-a7cb-ad9999f3ffbb">
+Так же вы получите сообщение c адреом проекта.
+
+![image](https://github.com/kignatovich/tms-dp-bot/assets/110161538/ccde305b-04d8-468d-923a-f595accb1c4b)
+
 
 Если в процессе развертывания появится ошибка - в чат будет отправлен листинг данной ошибки, для ее последующего устранения и исправления.
 
