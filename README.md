@@ -1,6 +1,7 @@
-## В проекте 2 ветки: 
-## - main(все для создания среды для разработки: ci\cd, мониторинг и тд);
-## - terraform_bot_bran(телеграмм бот и терраформ).
+## Состав проекта: 
+## - https://github.com/kignatovich/tms-dp - все для создания среды для разработки: ci\cd, мониторинг и тд;
+## - https://github.com/kignatovich/tms-dp-bot - телеграмм бот и терраформ;
+## - https://github.com/kignatovich/myproject-dp - приложение.
 
 # Настройка сервисной машины(она отвечает за запуск разворачивания инфраструктуры).
 В качестве инфрастуктуры используется Yandex Cloud.
@@ -11,7 +12,6 @@
 ```shell
 git clone git@github.com:kignatovich/tms-dp.git
 cd tms-dp/
-git checkout terraform_bot_bran
 chmode +x ./telegram_bot/instll_bot.sh
 sudo ./telegram_bot/install_bot.sh
 ```
