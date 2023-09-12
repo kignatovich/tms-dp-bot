@@ -1,0 +1,1 @@
+terraform-provider-yandex_v0.96.1 filter=lfs diff=lfs merge=lfs -text
